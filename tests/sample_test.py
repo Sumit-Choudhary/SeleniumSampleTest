@@ -1,8 +1,9 @@
 from base.selenium_base import SeleniumBase
+from base.api_base import APIBase
 from pages.login_popup_page import LoginPopupPage
 
 
-class TestFlipkartLogin(SeleniumBase):
+class TestFlipkartLogin(SeleniumBase, APIBase):
     """Below is the @BeforeClass method. This can be used if u want to perform any action everytime before Class"""
 
     @classmethod
@@ -31,3 +32,11 @@ class TestFlipkartLogin(SeleniumBase):
         :return:
         """
         pass
+
+    def test_api(self):
+        """
+        This is the example to API test case.
+        pass the arguments to the below method and get the response.
+        :return:
+        """
+        resp = self.make_api_request("", "", "", "")
