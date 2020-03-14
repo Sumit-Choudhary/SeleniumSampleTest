@@ -1,4 +1,4 @@
-from resources.Locators import LoginPageLocators as login_page
+from Resources.Locators import LoginPageLocators as login_page
 from base.selenium_base import SeleniumBase
 
 
@@ -16,3 +16,9 @@ class LoginPopupPage():
         driver.find_element(*login_page.user_name_input_box).send_keys(username)
         driver.find_element(*login_page.pwd_input_box).send_keys(pwd)
         driver.find_element(*login_page.login_button).click()
+
+    def validate_the_login(self):
+        selenium_base.wait_for_element(*login_page.logged_in_username)
+        element= driver.find_element(*login_page.logged_in_username)
+        inner_text = driver.execute_script("return arguments[0].innerText;", element)
+        return inner_text
