@@ -2,7 +2,7 @@ from Resources.Locators import LoginPageLocators as login_page
 from base.selenium_base import SeleniumBase
 
 
-class LoginPopupPage():
+class LoginAndStartPage():
     def __init__(self):
         global driver, selenium_base
         selenium_base = SeleniumBase()

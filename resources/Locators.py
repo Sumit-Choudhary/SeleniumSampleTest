@@ -6,3 +6,6 @@ class LoginPageLocators:
     pwd_input_box = (By.CSS_SELECTOR, "[class='_2zrpKA _3v41xv _1dBPDZ']")
     login_button = (By.CSS_SELECTOR, "[class='_2AkmmA _1LctnI _7UHT_c']")
     logged_in_username = (By.CSS_SELECTOR, "div._3pNZKl > div:nth-child(3)")
+    search_box = (By.CSS_SELECTOR, "div.O8ZS_U>input,LM6RPg")
+    sort_button_low_to_high= (By.CSS_SELECTOR, "div._1xHtJz.xufquN")
+    first_item = (By.CSS_SELECTOR, "div._3O0U0u div.IIdQZO._1SSAGr a._3dqZjq")

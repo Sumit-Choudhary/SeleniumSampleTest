@@ -1,4 +1,5 @@
 marketurl = "https://www.flipkart.com"
-username = "userid"
-password = "password@123"
+username = "desiredusername"
+password = "password#321"
 test_logged_in_user = "Login"
+item_to_search = "Puma t-shirts"
