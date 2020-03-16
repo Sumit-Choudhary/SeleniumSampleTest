@@ -17,6 +17,6 @@ Following is planned:
 
 API Testing
 ----------------------------------------------------------------------------
-Sample Base class is written
-Test validations needs to be added.
+1. Sample Base class is written
+2. Test validations needs to be added.
 
