@@ -7,9 +7,9 @@ class APIBase:
                          headers=None, auth=None):
         """
         This is a utility method to make any api request.
-        :param request_type:
-        :param url:
-        :param allow_redirects:
+        :param request_type: GET/ POST /PUT ..
+        :param url: URL of the API application
+        :param allow_redirects: 
         :param cookies:
         :param data:
         :param params:
