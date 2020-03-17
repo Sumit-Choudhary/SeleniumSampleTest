@@ -1,7 +1,9 @@
+import unittest
+
 import requests
 
 
-class APIBase:
+class APIBase(unittest.TestCase):
 
     def make_api_request(self, request_type, url, allow_redirects=None, cookies=None, data=None, params=None,
                          headers=None, auth=None):
@@ -17,9 +19,11 @@ class APIBase:
         :param auth:
         :return: response
         """
-        response = requests.request(request_type.value, url, allow_redirects=allow_redirects, cookies=cookies,
+        response = requests.request(request_type, url, allow_redirects=allow_redirects, cookies=cookies,
                                     data=data,
                                     params=params,
                                     headers=headers,
                                     auth=auth)
+
+
         return response
