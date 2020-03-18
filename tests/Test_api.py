@@ -20,11 +20,10 @@ class TestAPISample(APIBase):
         pass the arguments to the below method and get the response.
         :return:
         """
-
         response = api_helper.api_GET_method(test_data.GET_request_type, test_data.url,
                                              test_data.allow_redirects, test_data.cookies)
         assert response.status_code == 200
-        print(response.json())
+        print(api_helper.jprint(response.json()))
 
 
 if __name__ == '__main__':

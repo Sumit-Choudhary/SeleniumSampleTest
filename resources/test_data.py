@@ -6,10 +6,9 @@ password = "password#321"
 test_logged_in_user = "Login"
 item_to_search = "Puma t-shirts"
 
-
 ''' API testing test Data'''
 GET_request_type = 'GET'
-url = "http://api.open-notify.org/astros.json"
+url = 'http://api.open-notify.org/astros.json'
 allow_redirects = False
 cookies = None
 data = None
