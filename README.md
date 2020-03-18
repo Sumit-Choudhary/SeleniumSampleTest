@@ -24,7 +24,7 @@ Functionality achieved so far:
 2. Test method initially added for validating a simple GET request
 
 Following is planned:
-1. More test methods to be added to be covered for all REST verbs
+1. More test methods to be added to cover all REST verbs
 2. Test methods to be added with - Parameters, Headers, authentications, cookies etc
 3. Logging and error handling
 4. Test reports
