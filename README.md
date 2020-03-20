@@ -17,15 +17,16 @@ Following is planned:
 4. Logging and error handling
 5. Test reports
 
-API Testing - Refer https://www.dataquest.io/blog/python-api-tutorial/
+API Testing 
 ----------------------------------------------------------------------------
 Functionality achieved so far:
 1. API base and helper classes written with logging functionality
 2. Test method initially added for validating a simple GET request
+3. Logging added in the API helper function
 
 Following is planned:
 1. More test methods to be added to cover all REST verbs
 2. Test methods to be added with - Parameters, Headers, authentications, cookies etc
-3. Logging and error handling
+3. More extensive Logging and error handling
 4. Test reports
 
