@@ -6,13 +6,14 @@ This is a simple Selenium project in Python using Page Object Model to login int
 Functionality achieved so far:
 1. Logging in using user id and password and validating the correct login
 2. Searching for a product and selecting the lowest priced product from the search list
+3. Logging out by mouse hover and clicking on the logout link.
 
 
 The work is under progress.
 
 Following is planned:
-1. Add more functionality
-2. Add code to selenium_base to include more reusable methods
+1. Adding of more functionality
+2. Adding code to selenium_base to include more reusable methods
 3. Override selenium methods and use them effectively in the code
 4. Logging and error handling
 5. Test reports
