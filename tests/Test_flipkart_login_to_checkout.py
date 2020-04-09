@@ -2,7 +2,6 @@ import unittest
 
 from Resources import test_data
 from base.selenium_base import SeleniumBase
-from base.api_base import APIBase
 from pages.login_start_page import LoginAndStartPage
 from pages.search_result_page import SearchAndResultPage
 
@@ -35,6 +34,8 @@ class TestFlipkartLogin(SeleniumBase):
         search_result_page.search_for_products(test_data.item_to_search)
         search_result_page.select_lowest_priced_item()
 
+    def tearDown(self):
+        login_page.logout()
 
 
 if __name__ == '__main__':
